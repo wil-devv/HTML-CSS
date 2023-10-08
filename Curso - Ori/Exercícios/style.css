@@ -1,6 +1,7 @@
 body {
     font: Arial;
     text-align: center;
+    margin: 50px
 }
 
 div {
@@ -15,6 +16,7 @@ div {
 p {
     color: #b2b2b2;
 }
+
 
 .carro {
     background-color: #111 ;
