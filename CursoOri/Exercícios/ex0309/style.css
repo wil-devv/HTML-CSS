@@ -1,0 +1,53 @@
+* {
+    margin: 0px;
+}
+
+
+header {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    text-align: center;
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 15px 30px;
+    text-transform: uppercase;
+}
+
+
+body {
+    margin: 0px;
+    background-color: #f7f7f7;
+    display: grid;
+    gap: 60px;
+    justify-items: center;
+}
+
+main {
+    font: Arial;
+}
+
+img {
+    max-width: 30%
+}
+
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+
+
