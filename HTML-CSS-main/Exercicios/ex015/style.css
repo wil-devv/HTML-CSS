@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+body {
+    background-color: dimgray;
+}
+
+h1 {
+    background-color: rgb(102, 102, 4);
+}
+
+h2 {
+    font-style: italic;
+    font-size: smaller;
+}

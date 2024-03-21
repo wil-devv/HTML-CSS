@@ -1,0 +1,38 @@
+body {
+    font: Arial;
+    text-align: center;
+    margin: 50px
+}
+
+div {
+    margin: 50px;
+    border-radius: 4px;
+    height: 150px;
+    text-align: justify;
+    padding: 20px;
+}
+
+
+p {
+    color: #b2b2b2;
+}
+
+.carro {
+    background-color: #111 ;
+    color: white;
+}
+
+button {
+    background-color: #febe01;
+    border-radius: 4px;
+    height: 30px;
+}
+
+strong {
+    color: #febe01
+}
+
+.bici {
+    background-color: #111;
+    color: white;
+}

@@ -1,0 +1,46 @@
+@charset "UTF-8" ;
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    color: white;
+    background-color: #1A5C38;
+    display: flexbox;
+}
+
+
+header {
+    text-align: center;
+    padding: 30px;
+    background-image: linear-gradient(to top, #1A5C38, #227646, #268751 ,#2fa964, #3BD27F);
+}
+
+body {
+    background-color: #84E1AD;
+}
+
+main{
+    background-color: white;
+    margin: 0 300px 30px;
+    align-items: center;
+}
+
+
+
+ul {
+    text-align: center;
+}
+
+footer {
+    color: white;
+    background-color: #227646;
+    text-align: center;
+}
+
+.extras {
+    text-align: justify;
+}
