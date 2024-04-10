@@ -1,4 +1,8 @@
 @charset "UTF-8" ;
+@font-face {
+    font-family: 'comic';
+    src: url(i_hate_comic_sans/IHATCS__.TTF);
+}
 
 * {
     padding: 0px;
@@ -12,12 +16,33 @@ header {
     padding-bottom: 15px;
 }
 
+header > p {
+    color: white;
+}
+
+h1 {
+    color: white;
+    padding-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 body {
     background-color:gray
 }
 
 section {
+    font-weight: bold;
+    font-family: comic;
     padding-top: 10vh;
+    padding-left: 30px;
     padding-bottom: 10vh;
     line-height: 2em;
 }
@@ -28,6 +53,18 @@ section.normal {
 
 section.imagem {
     background-color: rgb(70, 70, 70);
+    background-image: url(pacote-d012/imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+section.imagem2 {
+    background-image: url(pacote-d012/imagens/background002.jpg);
+}
+
+section.imagem2 > p {
+    background-color: rgba(49, 49, 49, 0.308);
+    width: 300px;
 }
 
 footer {
@@ -35,4 +72,5 @@ footer {
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
+    color: white;
 }
