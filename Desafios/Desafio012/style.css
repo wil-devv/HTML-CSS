@@ -14,6 +14,7 @@ header {
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
+    font-size: 2em;
 }
 
 header > p {
@@ -96,5 +97,5 @@ footer {
     padding-top: 15px;
     padding-bottom: 15px;
     color: white;
-    font-size: 2vw;
+    font-size: 25px;
 }
