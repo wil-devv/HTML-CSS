@@ -1,0 +1,38 @@
+@charset "UTF-8" ;
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background: black;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+body {
+    background-color:gray
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+}
+
+section.normal {
+    background-color: white;
+}
+
+section.imagem {
+    background-color: rgb(70, 70, 70);
+}
+
+footer {
+    background: black;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
