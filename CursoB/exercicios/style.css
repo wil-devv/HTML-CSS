@@ -1,0 +1,13 @@
+fieldset {
+    padding-top: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(197, 197, 197);
+}
+
+legend {
+    color: black;
+}
+
+label {
+    color: rgb(63, 62, 62);
+}
