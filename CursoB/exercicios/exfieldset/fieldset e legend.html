@@ -13,11 +13,19 @@
             <legend>Dados Pessoais</legend>
             <label>
                 Primeiro nome : <br>
-                <input type="text" required><br>
+                <input type="text" required minlength="2" maxlength="4"><br>
             </label>
             <label>
                 Sobrenome : <br>
-                <input type="text">
+                <input type="text" minlength="2"> <br>
+            </label>
+            <label>
+                E-mail : <br>
+                <input type="text" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="Endereço de email" required> <br>
+            </label>
+            <label>
+                Idade : <br>
+                <input type="number" name="age" min="18" max="120" required> <br>
             </label>
         </fieldset>
 
