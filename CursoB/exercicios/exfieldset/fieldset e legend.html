@@ -7,21 +7,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form method="post">
+    <form method="get">
+        <input type="hidden" name="country" value="BR"> 
+        <!-- Para que serve o type "HIDDEN"?
+            
+            -Utilizado para enviar alguma informação do usuário, por exemplo; em um banco de dados, provavelmente o input "hidden" seria o ID daquele determinado usuário para identifica-lo, enviando para o servidor internamente.
+        
+        -->
         
         <fieldset>
             <legend>Dados Pessoais</legend>
             <label>
                 Primeiro nome : <br>
-                <input type="text" required minlength="2" maxlength="4"><br>
+                <input type="text" name="name" required minlength="2" maxlength="4"><br>
             </label>
             <label>
                 Sobrenome : <br>
-                <input type="text" minlength="2"> <br>
+                <input type="text" name="lastname" minlength="2"> <br>
             </label>
             <label>
                 E-mail : <br>
-                <input type="text" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="Endereço de email" required> <br>
+                <input type="text" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="Endereço de email" > <br>
             </label>
             <label>
                 Idade : <br>
