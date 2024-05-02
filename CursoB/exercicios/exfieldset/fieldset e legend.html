@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form method="get">
+    <form method="post" enctype="multipart/form-data">
         <input type="hidden" name="country" value="BR"> 
         <!-- Para que serve o type "HIDDEN"?
             
@@ -26,8 +26,8 @@
                 <input type="text" name="lastname" minlength="2"> <br>
             </label>
             <label>
-                E-mail : <br>
-                <input type="text" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="Endereço de email" > <br>
+                Foto : <br>
+                <input type="file" name="photo" accept="image/*"> <br>
             </label>
             <label>
                 Idade : <br>
